@@ -1,0 +1,44 @@
+h1{
+	text-align: center;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+	background-color:#FFFAF0;
+}
+
+table{
+	width:25%;
+}
+table,th,td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th,td{
+	padding: 15px;
+	text-align:left;
+}
+table th{
+	background-color:black;
+	color:white;
+}
+
+#btn{
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+#alertCad{
+	padding: 20px;
+  	background-color: #4CAF50;
+  	color: white;
+	padding: 20px;
+}
+
+
