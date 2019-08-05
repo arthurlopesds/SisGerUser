@@ -1,6 +1,7 @@
 # Sistema de Gerenciamento de Usuários
 
-Tarefa 3 - Trabalho Individual em Engenharia de Software
+Tarefa 3 - Trabalho Individual em Engenharia de Software.
+
 Trata-se de um simples servidor que foi feito usando o Apache Tomcat, Servlet e JSP.
 Apresentando uma comunicação com uma pagina web, em que é possível cadastrar usuários a partir do login, senha e status(ativo ou inativo),
 e também buscar cadastros a partir do status.
