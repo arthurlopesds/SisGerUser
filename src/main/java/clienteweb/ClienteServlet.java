@@ -1,9 +1,6 @@
 package clienteweb;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.model.Cliente;
 import br.com.service.ClienteService;
 
-@WebServlet(urlPatterns= {"/cliente","/clienteServlet","/clienteController"})
+@WebServlet(urlPatterns= {"/cliente","/clienteServlet"})
 public class ClienteServlet extends HttpServlet{
 		
 	ClienteService clienteService;
@@ -69,7 +66,6 @@ public class ClienteServlet extends HttpServlet{
 			String login = req.getParameter("login");
 			String senha = req.getParameter("senha");
 			String statusCad = req.getParameter("statusCad");
-			System.out.println("ESSE É O STATUS:"+ statusCad);
 			
 			Cliente cli = new Cliente("","","");
 			cli.setLogin(login);
@@ -89,11 +85,6 @@ public class ClienteServlet extends HttpServlet{
 			
 		
 			dispatcher.forward(req, resp);
-			//resp.sendRedirect("cliente");
-			
-			//resp.setCharacterEncoding("UTF-8");
-			//resp.getWriter().print("Chamou pelo metodo Post enviando o email " + email);
-			//System.out.println("Chamou o metodo do Post");
 		}
 		
 		@Override

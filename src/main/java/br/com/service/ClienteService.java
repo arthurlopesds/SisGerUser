@@ -30,7 +30,6 @@ public class ClienteService {
 		for (Cliente c : lista) {
 			if (c.getStatus().equalsIgnoreCase(st)) {
 				sts.add(c.getLogin());
-				System.out.println(sts.size());
 
 			}
 		}
